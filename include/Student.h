@@ -16,10 +16,11 @@
 
 #ifndef WANGYI01_BASE_STUDENT_H
 #define WANGYI01_BASE_STUDENT_H
-
+#endif //WANGYI01_BASE_STUDENT_H
 
 
 class Student {//类和java一样都是 class 
+
 
 private://私有的作用域 
     static Student* instance;
@@ -31,4 +32,3 @@ public://公用作用域
 };
 
 
-#endif //WANGYI01_BASE_STUDENT_H
