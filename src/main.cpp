@@ -2,18 +2,17 @@
 
 Student::getInstance() 相当于类名 . 方法 , 看java 
 
-
-
 */
 
 #include <iostream>
 #include "Student.h"
+#include "Teacher.h"
 
 
 int main(){
     Student* student = Student::getInstance();
     // std::cout << "hello world";
-    // Teacher teacher;
+    Teacher teacher;
     std::cout<< "heoll world \n";
  
 }
